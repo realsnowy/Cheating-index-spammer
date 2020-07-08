@@ -9,7 +9,7 @@ import json
 chars = string.ascii_letters + string.digits + '!@#$%^&*()'
 random.seed = (os.urandom(1024))
 
-url = 'http://tf2cheaters.125mb.com/?contact=new'
+url = 'http://tf2cheat.125mb.com/?contact=new'
 
 names = json.loads(open('names.json').read())
 messages = json.loads(open('messages.json').read())
